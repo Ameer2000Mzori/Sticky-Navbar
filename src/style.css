@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kenia&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 body {
   padding: 0;
   margin: 0;
@@ -19,17 +20,21 @@ body {
   top: 0;
   z-index: 10;
 }
+
 .navbar .navbrand {
   font-size: 25px;
   font-family: "Kenia", sans-serif;
   font-weight: 400;
 }
+
 .navbar .navbrand span {
   color: rgb(255, 57, 57);
 }
+
 .navbar .navlinks {
   display: flex;
 }
+
 .navbar .navlinks ul {
   list-style: none;
   padding: 0;
@@ -38,18 +43,22 @@ body {
   transition: all;
   transition-duration: 0.5s;
 }
+
 .navbar .navlinks ul li {
   padding: 1rem;
 }
+
 .navbar .navlinks ul li a {
   transition: all;
   transition-duration: 0.5s;
   text-decoration: none;
   color: white;
 }
+
 .navbar .navlinks ul li:hover {
   cursor: pointer;
 }
+
 .navbar .navlinks ul li:hover a {
   text-decoration: none;
   color: rgb(255, 61, 61);
@@ -59,9 +68,11 @@ body {
   background-color: rgb(221, 221, 221);
   color: rgb(0, 0, 0);
 }
+
 .navbar.active .navlinks ul li a {
   color: rgb(5, 5, 5);
 }
+
 .navbar.active .navlinks ul li:hover a {
   text-decoration: none;
   color: rgb(255, 96, 96);
@@ -75,19 +86,23 @@ body {
     align-items: center;
     justify-content: center;
   }
+
   .navbar .navbrand {
     font-size: 25px;
     font-family: "Kenia", sans-serif;
     font-weight: 400;
   }
+
   .navbar .navlinks {
     text-align: center;
     align-items: center;
   }
+
   .navbar .navlinks ul li a {
     font-size: 11px;
   }
 }
+
 .header-One {
   display: flex;
   flex-direction: column;
@@ -102,6 +117,7 @@ body {
   background-size: cover;
   position: relative;
 }
+
 .header-One .head-Wrap {
   position: absolute;
   height: 100%;
@@ -115,11 +131,13 @@ body {
   background-color: rgba(87, 86, 86, 0.432);
   color: white;
 }
+
 .header-One .head-Wrap h1 {
   font-family: "Kenia", sans-serif;
   font-weight: 200;
   font-size: 3rem;
 }
+
 .header-One .head-Wrap p {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -127,5 +145,3 @@ body {
   max-width: 450px;
   color: rgb(0, 0, 0);
 }
-
-/*# sourceMappingURL=style.css.map */
