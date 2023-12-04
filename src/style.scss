@@ -15,8 +15,9 @@ body {
   color: white;
   display: flex;
   text-align: center;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 1rem;
+  padding: 0.5rem;
 
   .navbrand {
     font-size: 25px;
@@ -24,7 +25,40 @@ body {
     font-weight: 400;
 
     span {
-      color: red;
+      color: rgb(255, 57, 57);
+    }
+  }
+
+  .navlinks {
+    display: flex;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      transition: all;
+      transition-duration: 0.5s;
+
+      li {
+        padding: 1rem;
+
+        a {
+          transition: all;
+          transition-duration: 0.5s;
+          text-decoration: none;
+          color: white;
+        }
+      }
+
+      li:hover {
+        cursor: pointer;
+
+        a {
+          text-decoration: none;
+          color: wheat;
+        }
+      }
     }
   }
 }
