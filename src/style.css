@@ -59,3 +59,28 @@ body {
   text-decoration: none;
   color: wheat;
 }
+
+@media screen and (max-width: 769px) {
+  .navbar {
+    padding: 0;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar .navbrand {
+    font-size: 25px;
+    font-family: "Kenia", sans-serif;
+    font-weight: 400;
+  }
+
+  .navbar .navlinks {
+    text-align: center;
+    align-items: center;
+  }
+
+  .navbar .navlinks ul li a {
+    font-size: 11px;
+  }
+}

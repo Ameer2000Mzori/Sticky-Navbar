@@ -62,3 +62,32 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 769px) {
+  .navbar {
+    padding: 0;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    .navbrand {
+      font-size: 25px;
+      font-family: $fontOne;
+      font-weight: 400;
+    }
+
+    .navlinks {
+      text-align: center;
+      align-items: center;
+
+      ul {
+        li {
+          a {
+            font-size: 11px;
+          }
+        }
+      }
+    }
+  }
+}
