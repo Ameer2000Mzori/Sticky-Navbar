@@ -9,6 +9,22 @@ body {
 }
 
 .navbar {
+  font-family: $fontTwo;
+  font-weight: 600;
   background-color: black;
+  color: white;
   display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+
+  .navbrand {
+    font-size: 25px;
+    font-family: $fontOne;
+    font-weight: 400;
+
+    span {
+      color: red;
+    }
+  }
 }

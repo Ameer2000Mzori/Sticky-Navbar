@@ -6,6 +6,22 @@ body {
 }
 
 .navbar {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
   background-color: black;
+  color: white;
   display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navbar .navbrand {
+  font-size: 25px;
+  font-family: "Kenia", sans-serif;
+  font-weight: 400;
+}
+
+.navbar .navbrand span {
+  color: red;
 }
