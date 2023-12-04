@@ -18,7 +18,7 @@
 
 # 📖 About This Project <a name="about-project"></a>
 
-> Experience Scroll Animation, a captivating website meticulously crafted with HTML, SCSS, and TypeScript. Built using webpack and fortified with linters, this project ensures a seamless and error-free codebase. Immerse yourself in the live demo for a firsthand look at the captivating animations!
+> Sticky-Navbar is a website crafted with HTML, SCSS, and TypeScript. The navbar remains fixed at the top of the page and dynamically changes colors as you scroll. Linters were employed to fix code errors and ensure clean, reliable code. Explore the live demo for a firsthand experience.
 
 # Sample Of Website <a name="Sample-Of-Website"></a>
 
@@ -39,7 +39,6 @@
   <li><a href="https://en.wikipedia.org/wiki/TypeScript">TypeScript</a></li>
   <li><a href="https://stylelint.io/">Html/CSS Linters</a></li>
   <li><a href="https://eslint.org/">eslinters/TsLinters</a></li>
-    <li><a href="https://webpack.js.org/">Web Pack</a></li>
   </ul>
 </details>
 
