@@ -75,7 +75,7 @@ body {
 
 .navbar.active .navlinks ul li:hover a {
   text-decoration: none;
-  color: rgb(255, 96, 96);
+  color: rgb(255, 61, 61);
 }
 
 @media screen and (max-width: 769px) {
