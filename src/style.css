@@ -145,3 +145,46 @@ body {
   max-width: 450px;
   color: rgb(0, 0, 0);
 }
+
+.header-Two {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1701001512072-3a232c906443?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header-Two .head-Wrap {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  background-color: rgba(248, 197, 197, 0.432);
+  color: rgb(0, 0, 0);
+}
+
+.header-Two .head-Wrap h1 {
+  font-family: "Kenia", sans-serif;
+  font-weight: 200;
+  font-size: 3rem;
+}
+
+.header-Two .head-Wrap p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  max-width: 450px;
+  color: rgb(0, 0, 0);
+}
