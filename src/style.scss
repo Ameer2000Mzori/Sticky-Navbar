@@ -144,5 +144,19 @@ body {
     z-index: 5;
     background-color: rgba(87, 86, 86, 0.432);
     color: white;
+
+    h1 {
+      font-family: $fontOne;
+      font-weight: 200;
+      font-size: 3rem;
+    }
+
+    p {
+      font-family: $fontTwo;
+      font-weight: 700;
+      font-size: 1rem;
+      max-width: 450px;
+      color: rgb(0, 0, 0);
+    }
   }
 }
